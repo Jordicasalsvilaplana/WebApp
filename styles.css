@@ -1,40 +1,60 @@
-body {
-    background-color: rgb(56, 52, 52);
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+body,
+html,
+.wrap {
+    height: 100%;
+    background-color: gray;
     margin: 0;
     padding: 0;
 }
 
+body>.wrap {
+    height: auto;
+    min-height: 100%;
+    
+}
+
+.wrap:after {
+    content: "";
+    display: block;
+    height: 100px;
+    
+}
+
+.footer {
+    margin-top: -100px;
+    height: 100px;
+    color: #fff;
+    position: relative;
+    line-height: 180%;
+    padding: 0 10px;
+}
 header {
+    
     background: black;
     padding: 20px;
+    text-align: center;
+    height: 400px;
+    background-size: 100%;
+    background-image: url("images/bakery1.jpeg");
+    background-size: 100%;
+    background-position: center;
 }
 
-section {
-    background: white;
-    color: black;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
 }
-
-footer {
-    background: black;
-    padding: 20px;
-}
-
-div {
-    background: red;
-    margin: auto;
+div .logo a{
+    position: relative;
+    background-color: red;
+    background-image: url("images/gear.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
     width: 100px;
-}
-ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-li{
-    display: inline;
-    margin-right: 20px;
+    height: 100px;
+    top: -40px;
+    text-indent: -99999px;
 }

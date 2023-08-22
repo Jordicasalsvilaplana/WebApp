@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(56, 52, 52);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header {
+    
+    background: black;
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+    background-size: 100%;
+    background-image: url("images/bakery1.jpeg");
+    background-size: 100%;
+    background-position: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header .logo a {
+    position: relative;
+    background-color: red;
+    background-image: url("images/proxy-image.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 300px;
+    height: 120px;
+    top: -40px;
+    text-indent: -99999px;
+
+}
+
+section {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+section div {
+    background: grey;
+}
+
+.feature-box div {
+    margin: 2px;
+}
+
+.feature-box.sales {
+    background: pink;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    color: black;
+}
+.feature-box.sales figure img{
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+.feature-box.closeouts div {
+    background: blue;
+    color: red;
+}
+
+footer {
+    background: black;
+    padding: 20px;
+}
+
+div {
+    background: red;
+    margin: auto;
+    width: 100px;
+}
+
